@@ -1,0 +1,78 @@
+/*Put all fonts here!*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+/*These are the default styles*/
+body{
+    background-color: #403d39;
+    /*Change the font*/
+    font-family: 'Roboto', sans-serif;
+    color: #dcdad5;
+}
+
+h1, h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+#masthead{
+    background-image: url("../images/backgrounds/background2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d69524;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+nav  li {
+    float: left;
+}
+  
+nav  a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    
+  }
+
+#about{
+    
+    background-color: #333132;
+}
+
+.bg-darkGrey{
+    background-color: #333132;
+}
+
+.bg-scallop{
+    background-image: url("../images/backgrounds/background2.jpg");
+    background-repeat: repeat-x;
+    background-color: #FFA63D;
+}
+
+
