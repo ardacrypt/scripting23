@@ -1,0 +1,145 @@
+/*Put all fonts here!*/
+
+@import url('https://fonts.googleapis.com/css2?&family=Roboto&family=DM+Sans:opsz@9..40&display=swap');
+
+/*These are the default styles*/
+
+body{
+    /*Change the font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.bg-purple {
+    background-color: rgb(212, 0, 212);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.header {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/izmir.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.headerreff {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/reff.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.headergeo {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/geographybg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.headerattr {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/attr2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.headereco {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/izmireco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.headerpeo {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/peopleizm2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+#title {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    margin-top: 80px;
+}
+
+#intro {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    line-height: 35px;
+  }
+
+/*-- Images Hover Effects CSS --*/
+
+.img-box img {
+	max-width: 100%;
+	border: 3px solid #cacaca;
+	position: relative;
+	width: 100%;
+    
+}
+
+
+.img-box:hover {
+  	transform: scale(1.04);
+}
+
+.img-box:hover::before {
+  	left: 10px;
+  	top: 10px;
+    
+}
+.img-box:hover::after {
+  	right: 10px;
+  	bottom: 10px;
+}
