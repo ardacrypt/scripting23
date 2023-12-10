@@ -1,0 +1,56 @@
+/*Put all fonts here!*/
+@import url('https://fonts.googleapis.com/css2?&family=Roboto&family=DM+Sans:opsz@9..40&display=swap');
+
+/*These are the default styles*/
+body{
+    /*Change the font*/
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'DM Sans', sans-serif;
+}
+:focus {
+  outline: none;
+}
+body {
+  line-height: 2;
+  font-size: 15px;
+  min-height: 100vh;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+.panel {
+  padding: 2rem;
+  border-radius: 10px;
+}
+.white-bg {
+  background: rgb(255 255 255 / 70%);
+}
+.light-bg {
+  background: rgb(226 226 226 / 90%);
+}
+input[type="text"] {
+  width: 80px;
+  border: none;
+  color: #e4711a;
+  background: transparent;
+  border-bottom: 1px dashed #e4711a;
+}
+input[type="radio"] {
+  color: #e4711a;
+}
+.btn-orange {
+  background: #e4711a;
+}
+.bg-light-gray {
+  background: #f6f6f6;
+}
+#output img {
+  height: 120px;
+}
+@media (max-width: 767px) {
+  .main {
+    background: rgb(255 255 255 / 85%);
+    min-height: inherit;
+  }
+}

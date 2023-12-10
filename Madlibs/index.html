@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Arda's Madlibs Story!</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/formJsStyle.css" />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!---------------------Masterhead----------------------->
+    <header>
+      <div class="container">
+        <div class="align-items-center row">
+          <div class="col-12 py-3 text-center text-white">
+            <h1 class="text-uppercase fw-bold display-3 mb-0">Mad Libs</h1>
+            <p class="h4 mb-0">Chris and the Ghost-Looking-Man on a Halloween Night</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---------------------Main Body Content----------------------->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 p-4">
+            <div class="panel white-bg h-100">
+              <h2>Let's play MadLibs!</h2>
+              <p class="h6 mb-4">
+                Come up with words that fit with the parts of speech listed on
+                this page. Then fill in the matching blanks to create a story.
+              </p>
+              <form action="javascript:write();">
+                <div>
+                  It was the end of the Halloween
+                  <input type="text" id="event" /> night. All the people,
+                  children and parents were going to
+                  <input type="text" id="place" /> . All were wearing Halloween
+                  costumes. Chris, a 5-year-old boy,
+                  <input type="text" id="activity" /> alone on a bench by his
+                  home. His grandparents had slept, but he was still waiting for
+                  his elder brothers, sisters, and other family members to
+                  return. As he was sitting, he found himself captivated by a
+                  group of
+                  <!--radio buttons-->
+                  <div class="d-inline-block ml-1">
+                    <input type="radio" id="cats" value="cats" name="animal" />
+                    <label for="cats" class="mr-1">cats</label>
+                    <input
+                      id="spiders"
+                      type="radio"
+                      name="animal"
+                      value="spiders"
+                    />
+                    <label for="spiders">spiders</label>
+                  </div>
+                  that drew his attention. Suddenly, he sees a horrible,
+                  ghost-looking man near
+                  <input type="text" id="nearby_place" />. Chris says hi to the
+                  scary-looking man but fails to get a proper response. Then the
+                  ghost-looking man walks towards him, and Chris kindly asks
+                  him, "Mr, where are my brothers?". The man keeps his silence.
+                  Even though it is an awkward situation, Chris enjoys ghost
+                  looking man's company, and then he asks to borrow his costume.
+                  But the man has different intentions. The eyes of the man
+                  suddenly turn into scary red as it was a dreadful
+                  <input type="text" id="creature" />. He wants to catch him!
+                  Suddenly, a <input type="text" id="count" /> of people pass by
+                  them. Ghost-looking-man was going to but couldn't
+                  <input type="text" id="verb" /> him, decided to hide himself
+                  behind a <input type="text" id="thing" />. Chris now knows
+                  something is up with the man. Suddenly, an old man from behind
+                  calls up Chris in a familiar voice. The old man turns out to
+                  be Chris's <input type="text" id="relative" />. He hears
+                  Chris's cries, grabs him by the arm, and then they both return
+                  home <input type="text" id="emotion" />.
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-orange text-white px-4 mt-3">
+                  Go mad!
+                </button>
+              </form>
+            </div>
+          </div>
+          <!--Output Div-->
+          <div class="col-md-6 p-4" id="output"></div>
+        </div>
+      </div>
+    </section>
+    <!---------------------Your Custom Javascript----------------------->
+    <script src="js/formHandler.js"></script>
+  </body>
+</html>
