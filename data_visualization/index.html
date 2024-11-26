@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canada Data Visualizations</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js -->
+</head>
+
+<body>
+  <header class="text-white text-center py-4">
+    <h1>Canada Data Visualizations</h1>
+    <p>Insights into Canadian Economy and Visitor Trends</p>
+  </header>
+
+  <section class="container my-5">
+    <h2 class="text-center">Preamble</h2>
+    <p>This page presents visualizations of various datasets pertaining to Canada, such as food services sales, building
+      permits, visitor modes, and assets under foreign control.</p>
+    <p>Data sources include Statistics Canada.</p>
+  </section>
+
+  <!-- Visualization Section -->
+  <section class="container my-5">
+    <div class="row">
+      <!-- Vertical Bar Chart -->
+      <div class="col-md-6 mb-4">
+        <canvas id="barChart"></canvas>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h4>Share of Canadian Assets Under China’s Control</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h4>Food Services and Drinking Places Sales</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <!-- Line Chart -->
+      <div class="col-md-6 mb-4">
+        <canvas id="salesChart"></canvas>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="row">
+      <!-- Pie Chart -->
+      <div class="col-md-6 mb-4">
+        <canvas id="pieChart"></canvas>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h4>Percentage of Visitors by Mode of Transportation</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h4>Value of Building Permits Issued by Municipalities</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <!-- Horizontal Bar Chart -->
+      <div class="col-md-6 mb-4">
+        <canvas id="horizontalBarChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-12 mb-12">
+        <h3>References</h3>
+        <ul>
+          <li><a href="https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2017003-eng.htm" target="_blank">Food
+              Services and Drinking Places Sales Across Canada</a></li>
+          <li><a href="https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2021005-eng.htm" target="_blank">Value of
+              Building Permits Issued by Canadian Municipalities</a></li>
+          <li><a href="https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2023020-eng.htm" target="_blank">Percentage
+              of Canada Visitors by Mode of Transportation</a></li>
+          <li><a href="https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2020024-eng.htm" target="_blank">Share of
+              Canadian Assets Under China’s Control</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-3">
+    <p>Created by Arda Ertas, 2024</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script> <!-- Link to custom JavaScript -->
+
+
+</body>
+
+</html>
