@@ -1,0 +1,24 @@
+header{
+    height:90vh;
+    background-image: url(../optimizedImages/heroMobile.jpg);
+    background-size: cover;
+    background-position:center top;
+}
+
+#patternSection{
+    background-image: url(../optimizedImages/pattern.gif);
+  
+}
+
+
+/* Large devices */
+@media only screen and (min-width: 1080px) {
+    
+    header{
+        height:90vh;
+        background-image: url(../optimizedImages/heroDesktop.jpg);
+        background-size: cover;
+        background-position:center center;
+    }
+
+}
